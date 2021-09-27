@@ -1,0 +1,92 @@
+body{
+margin: 10px;
+padding: 5px;
+background-image: url(S:/_Spatium/Учеба/Веб/Lab1/Main.jpg);
+}
+
+h1{
+color: #FFFFFF;
+padding-bottom: 17px;
+margin-bottom: -2px;
+border-bottom: 2px solid #FFFFFF;
+text-align: center;
+font-family: "Arial Black";
+font-size: 50px;
+}
+
+h2{
+color: #4d4d4d;
+padding-top: 10px;
+padding-left: 100px;
+padding-right: 60px;
+font-family: "Arial Black";
+font-size: 20px;
+}
+
+table{
+width: 100%;
+height: 40px;
+table-layout: fixed;
+border: 0;
+cellspacing: 0;
+cellpadding: 0;
+}
+
+tr{
+text-align:center;
+}
+
+th{
+font-family: "Arial";
+font-size: 30px;
+line-height: 1.5;
+}
+
+p{
+color: #4d4d4d;
+padding-left: 60px;
+padding-right: 60px;
+font-family: "Arial";
+font-size: 18px;
+line-height: 1.5;
+}
+
+ul{
+padding-left: 80px;
+padding-right: 60px;
+}
+
+li{
+color: #FF7F00;
+font-family: "Arial";
+font-size: 40px;
+line-height: 2;
+}
+
+.titles{
+color: #FFFFFF;
+font-family: "Arial";
+font-weight: bold;
+font-size: 20px;
+}
+
+.referal{
+color: #FF7F00;
+font-family: "Arial";
+font-weight: bold;
+}
+
+.choice{
+background: #8f6bb3;
+}
+
+.align-center{
+text-align: center;
+}
+
+.center-of-page{
+position: absolute;
+width: 95%;
+top: 50%;
+text-align: center;
+}
