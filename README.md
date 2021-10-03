@@ -1,2 +1,2 @@
-# Laba1
+# Ссылка на сайт: https://shumaroz.github.io/Laba1/
  
