@@ -53,6 +53,10 @@ function pongGame(elid, width, height, speed) {
         ai_pos++;
     }
     if (x < -10 || x > width) {
+      if (x > width)      
+	ctx.fillText("Winner-winner!", 210, 170);
+      else
+	ctx.fillText("Loser!", 270, 170);
       clearInterval(game);
     }
     x += speed;

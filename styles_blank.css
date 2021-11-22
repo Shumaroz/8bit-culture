@@ -71,6 +71,13 @@ text-align: center;
 text-decoration: none;
 display: inline-block;
 font-size: 16px;
+cursor: pointer;
+-webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+button:hover {
+  box-shadow: 0 0 40px 40px #8f6bb3 inset;
 }
 
 .referal{
@@ -83,7 +90,7 @@ font-size: 18px;
 .go-back{
 display: block;
 text-align: center;
-color: #FF7F00;
+color: #8f6bb3;
 font-family: "Arial";
 font-weight: bold;
 font-size: 14px;
