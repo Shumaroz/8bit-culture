@@ -1,4 +1,4 @@
-html { 
+html{ 
 background: url(Main.jpg) no-repeat; 
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -47,6 +47,10 @@ th{
 font-family: "Arial";
 font-size: 30px;
 line-height: 1.5;
+}
+
+td{
+background: #FF7F00;
 }
 
 p{
